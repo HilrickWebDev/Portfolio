@@ -1,5 +1,4 @@
-//Rewrite to www
-Options +FollowSymLinks
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^hilricklouw.com[nc]
-RewriteRule ^(.*)$ http://www.hilricklouw.com/$1 [r=301,nc]
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.html [L]
