@@ -129,19 +129,6 @@ textarea {
 ::-webkit-input-placeholder {
     font-size: 16px;
 }
-.hilrick-photo {
-    margin-right: 0;
-    margin-left: auto;
-}
-
-@media only screen and (max-width: 540px) {
-    .hilrick-photo {
-        margin-right: auto; 
-        margin-left: 0; 
-        height: 350px; 
-    }
-}
-
 
 /* LAYOUT
 ================================================== */
@@ -270,6 +257,10 @@ html, body {
     height: 600px;
 }
 
+.hilrick-photo {
+    margin-right: 0;
+    margin-left: auto;
+}
 
 
 /* SITEMAIN

@@ -68,6 +68,11 @@
 		height: 420px;
 	}
 
+	@media only screen and (max-width: 580px) {
+		.hilrick-photo {
+		  display: none;
+		}
+	  }
 	/* SITEMAIN
 	================================================== */
 	.site-section {
